@@ -55,7 +55,7 @@ public class StepTracker {
             if (numberDay < 1 || numberDay > 30) {
                 System.out.println(MESSAGE_ERROR_COUNT_DAYS);
             } else {
-                if (countSteps < 0) {
+                if (countSteps <= 0) {
                     System.out.println(MESSAGE_ERROR_COUNT_STEP);
                 } else monthToData[numberMonth - 1].getDays()[numberDay - 1] = countSteps;
             }
