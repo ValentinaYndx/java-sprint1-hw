@@ -31,7 +31,6 @@ public class Main {
                     break;
                 default:
                     System.out.print(MESSAGE_FOR_UNKNOWN_COMMAND);
-                    return;
             }
         }
     }

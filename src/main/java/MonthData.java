@@ -29,10 +29,10 @@ public class MonthData {
         for (int day : days) {
             if (day >= goalByStepsPerDay) {
                 currentSeries++;
-            } else {
                 if (finalSeries < currentSeries) {
                     finalSeries = currentSeries;
                 }
+            } else {
                 currentSeries = 0;
             }
         }
